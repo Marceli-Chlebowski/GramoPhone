@@ -4,7 +4,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     const cartridgeSelect = document.getElementById('cartridge');
 
     try {
-        const response = await fetch('/api/calculator/data');
+        // Poprawiona ścieżka do Netlify Functions
+        const response = await fetch('/.netlify/functions/calculator/data');
         const { arms, cartridges } = await response.json();
 
         arms.forEach(arm => {
@@ -74,8 +75,8 @@ function createChart(resonanceFrequency) {
                     min: 0,
                     max: 20,
                     ticks: {
-                        stepSize: 1, // Podziałka co 1
-                        font: { weight: 'bold', size: 12 }, // Grubsze i większe etykiety osi Y
+                        stepSize: 1,
+                        font: { weight: 'bold', size: 12 },
                         callback: function(value) {
                             return value;
                         },
@@ -119,8 +120,6 @@ function updateEvaluationColor(resonanceFrequency) {
     evaluationElement.style.color = color;
 }
 
-
-
 // Obsługa formularza i wyświetlanie wyniku
 document.getElementById('calcForm').addEventListener('submit', async (e) => {
     e.preventDefault();
@@ -129,29 +128,33 @@ document.getElementById('calcForm').addEventListener('submit', async (e) => {
     const cartridge = document.getElementById('cartridge').value;
     const additionalMass = document.getElementById('additionalMass').value;
 
-    const response = await fetch('/api/calculator', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ armId: parseInt(arm), cartridgeId: parseInt(cartridge), additionalMass })
-    });
+    try {
+        // Poprawiona ścieżka do Netlify Functions
+        const response = await fetch('/.netlify/functions/calculator', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ armId: parseInt(arm), cartridgeId: parseInt(cartridge), additionalMass })
+        });
 
-    const resultDiv = document.getElementById('result');
-    if (response.ok) {
-        const data = await response.json();
-        resultDiv.innerHTML = `
-        <p>Resonance Frequency: ${data.resonanceFrequency} Hz</p>
-        <p>Effective Mass: ${data.effectiveMass} g</p>
-        <p>Compliance: ${data.compliance}</p>
-        <p>Evaluation: ${data.evaluation}</p>
-    `;
+        const resultDiv = document.getElementById('result');
+        if (response.ok) {
+            const data = await response.json();
+            resultDiv.innerHTML = `
+                <p>Resonance Frequency: ${data.resonanceFrequency} Hz</p>
+                <p>Effective Mass: ${data.effectiveMass} g</p>
+                <p>Compliance: ${data.compliance}</p>
+                <p>Evaluation: ${data.evaluation}</p>
+            `;
 
-        // Zmień kolor oceny
-        updateEvaluationColor(parseFloat(data.resonanceFrequency));
+            // Zmień kolor oceny
+            updateEvaluationColor(parseFloat(data.resonanceFrequency));
 
-        // Rysowanie wykresu na podstawie wyniku
-        createChart(parseFloat(data.resonanceFrequency));
-    } else {
-        resultDiv.innerHTML = `<p>Error: Invalid input data</p>`;
+            // Rysowanie wykresu na podstawie wyniku
+            createChart(parseFloat(data.resonanceFrequency));
+        } else {
+            resultDiv.innerHTML = `<p>Error: Invalid input data</p>`;
+        }
+    } catch (error) {
+        console.error('Error processing calculation:', error);
     }
-
 });

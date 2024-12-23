@@ -1,7 +1,12 @@
+const serverless = require('serverless-http');
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
-const router = express.Router();
+
+const app = express();
+
+// Middleware
+app.use(express.json());
 
 // Wczytanie danych z JSON
 const dataPath = path.join(__dirname, '../data/database.json');
@@ -9,7 +14,7 @@ const data = JSON.parse(fs.readFileSync(dataPath));
 const { arms, cartridges } = data;
 
 // API kalkulatora
-router.post('/', (req, res) => {
+app.post('/api/calculator', (req, res) => {
     const { armId, cartridgeId, additionalMass } = req.body;
 
     const arm = arms.find(a => a.id === parseInt(armId));
@@ -40,8 +45,10 @@ router.post('/', (req, res) => {
     });
 });
 
-router.get('/data', (req, res) => {
+// Endpoint do zwrócenia danych ramion i wkładek
+app.get('/api/calculator/data', (req, res) => {
     res.json({ arms, cartridges });
 });
 
-module.exports = router;
+// Eksport funkcji serverless
+module.exports.handler = serverless(app);
