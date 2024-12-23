@@ -1,6 +1,7 @@
 [build]
 publish = "public"
 functions = "functions"
+node_version = "14"
 
 [[redirects]]
 from = "/api/*"
