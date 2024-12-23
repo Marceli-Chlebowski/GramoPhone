@@ -12,6 +12,7 @@
   "dependencies": {
     "chart.js": "^4.4.7",
     "chartjs-plugin-annotation": "^3.1.0",
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "serverless": "^4.4.18"
   }
 }
