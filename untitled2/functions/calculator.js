@@ -9,7 +9,7 @@ const app = express();
 app.use(express.json());
 
 // Wczytanie danych z JSON
-const dataPath = path.join(__dirname, '../data/database.json');
+const dataPath = path.join(__dirname, 'public/data/database.json');
 const data = JSON.parse(fs.readFileSync(dataPath));
 const { arms, cartridges } = data;
 
