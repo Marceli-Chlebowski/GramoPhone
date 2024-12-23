@@ -1,0 +1,882 @@
+{
+    "arms": [
+        {
+            "id": 1,
+            "name": "Gold Note B5",
+            "effectiveMass": 15.0
+        },
+        {
+            "id": 2,
+            "name": "Gold Note B5.1",
+            "effectiveMass": 10.0
+        },
+        {
+            "id": 3,
+            "name": "Gold Note B5.2",
+            "effectiveMass": 10.0
+        },
+        {
+            "id": 4,
+            "name": "Gold Note B7 Ceramic",
+            "effectiveMass": 10.0
+        },
+        {
+            "id": 5,
+            "name": "KuzamStogi",
+            "effectiveMass": 13.0
+        },
+        {
+            "id": 6,
+            "name": "Kuzma 4Point 11'",
+            "effectiveMass": 18.0
+        },
+        {
+            "id": 7,
+            "name": "Kuzma 4Point 14'",
+            "effectiveMass": 19.0
+        },
+        {
+            "id": 8,
+            "name": "Kuzma 4Point 9",
+            "effectiveMass": 13.0
+        },
+        {
+            "id": 9,
+            "name": "Kuzma Air Line",
+            "effectiveMass": 13.0
+        },
+        {
+            "id": 10,
+            "name": "Kuzma Safir 9",
+            "effectiveMass": 60.0
+        },
+        {
+            "id": 11,
+            "name": "Kuzma Stogi Reference",
+            "effectiveMass": 13.0
+        },
+        {
+            "id": 12,
+            "name": "Kuzma Stogi Reference 313 VTA",
+            "effectiveMass": 13.0
+        },
+        {
+            "id": 13,
+            "name": "Kuzma Stogi S",
+            "effectiveMass": 11.0
+        },
+        {
+            "id": 14,
+            "name": "Kuzma Stogi S12 VTA",
+            "effectiveMass": 13.0
+        },
+        {
+            "id": 15,
+            "name": "Morph DP - 6.14",
+            "effectiveMass": 14.0
+        },
+        {
+            "id": 16,
+            "name": "Morph DP - 6.4",
+            "effectiveMass": 4.0
+        },
+        {
+            "id": 17,
+            "name": "Morph DP - 6.6",
+            "effectiveMass": 6.0
+        },
+        {
+            "id": 18,
+            "name": "Morph DP - 6.8",
+            "effectiveMass": 8.0
+        },
+        {
+            "id": 19,
+            "name": "Morph DP - 8.14",
+            "effectiveMass": 14.0
+        },
+        {
+            "id": 20,
+            "name": "Morph DP - 8.4",
+            "effectiveMass": 4.0
+        },
+        {
+            "id": 21,
+            "name": "Morph DP - 8.6",
+            "effectiveMass": 6.0
+        },
+        {
+            "id": 22,
+            "name": "Morph DP - 8.8",
+            "effectiveMass": 8.0
+        },
+        {
+            "id": 23,
+            "name": "Morph UP - 4.14",
+            "effectiveMass": 14.0
+        },
+        {
+            "id": 24,
+            "name": "Morph UP - 4.4",
+            "effectiveMass": 4.0
+        },
+        {
+            "id": 25,
+            "name": "Morph UP - 4.6",
+            "effectiveMass": 6.0
+        },
+        {
+            "id": 26,
+            "name": "Morph UP - 4.8",
+            "effectiveMass": 8.0
+        },
+        {
+            "id": 27,
+            "name": "Nottingham Analogue ACE SPACE 10",
+            "effectiveMass": 12.5
+        },
+        {
+            "id": 28,
+            "name": "Nottingham Analogue ACE SPACE 12",
+            "effectiveMass": 14.5
+        },
+        {
+            "id": 29,
+            "name": "Pro-Ject Aluminium 8,6\"",
+            "effectiveMass": 8.0
+        },
+        {
+            "id": 30,
+            "name": "Pro-Ject Carbon 8,6\"",
+            "effectiveMass": 10.0
+        },
+        {
+            "id": 31,
+            "name": "Pro-Ject EVO 10AS",
+            "effectiveMass": 25.0
+        },
+        {
+            "id": 32,
+            "name": "Pro-Ject EVO 10CC",
+            "effectiveMass": 8.5
+        },
+        {
+            "id": 33,
+            "name": "Pro-Ject EVO 12AS",
+            "effectiveMass": 28.1
+        },
+        {
+            "id": 34,
+            "name": "Pro-Ject EVO 12CC",
+            "effectiveMass": 10.5
+        },
+        {
+            "id": 35,
+            "name": "Pro-Ject EVO 9AS",
+            "effectiveMass": 24.2
+        },
+        {
+            "id": 36,
+            "name": "Pro-Ject EVO 9CC",
+            "effectiveMass": 8.0
+        },
+        {
+            "id": 37,
+            "name": "Rega RB110",
+            "effectiveMass": 11.0
+        },
+        {
+            "id": 38,
+            "name": "Rega RB220",
+            "effectiveMass": 11.0
+        },
+        {
+            "id": 39,
+            "name": "RegA RB3000",
+            "effectiveMass": 11.5
+        },
+        {
+            "id": 40,
+            "name": "Rega RB330",
+            "effectiveMass": 11.0
+        },
+        {
+            "id": 41,
+            "name": "RegA RB880",
+            "effectiveMass": 11.0
+        },
+        {
+            "id": 42,
+            "name": "Schroder CB",
+            "effectiveMass": 14.0
+        },
+        {
+            "id": 43,
+            "name": "Schroder CB-L",
+            "effectiveMass": 17.0
+        },
+        {
+            "id": 44,
+            "name": "Schroder LT",
+            "effectiveMass": 14.0
+        },
+        {
+            "id": 45,
+            "name": "Schroder Model 2",
+            "effectiveMass": 14.0
+        },
+        {
+            "id": 46,
+            "name": "Jelco SA-750D",
+            "effectiveMass": 13.48
+        },
+        {
+            "id": 47,
+            "name": "Jelco SA-750E",
+            "effectiveMass": 15.0
+        },
+        {
+            "id": 48,
+            "name": "Jelco SA-750L",
+            "effectiveMass": 17.0
+        },
+        {
+            "id": 49,
+            "name": "Jelco SA-250ST",
+            "effectiveMass": 10.44
+        },
+        {
+            "id": 50,
+            "name": "ClearAudio Satisfy Carbon 9\"",
+            "effectiveMass": 7.0
+        }
+    ],
+    "cartridges": [
+        {
+            "id": 1,
+            "name": "Audiotechnica ART-20",
+            "mass": 9.0,
+            "compliance": 26.0
+        },
+        {
+            "id": 2,
+            "name": "Audiotechnica ART-9XA",
+            "mass": 8.5,
+            "compliance": 20.0
+        },
+        {
+            "id": 3,
+            "name": "Audiotechnica ART-9XI",
+            "mass": 8.5,
+            "compliance": 30.0
+        },
+        {
+            "id": 4,
+            "name": "Audiotechnica AT-33EMONO",
+            "mass": 6.9,
+            "compliance": 12.0
+        },
+        {
+            "id": 5,
+            "name": "Audiotechnica AT33EV, PTG, Sa",
+            "mass": 6.9,
+            "compliance": 20.0
+        },
+        {
+            "id": 6,
+            "name": "Audiotechnica AT95",
+            "mass": 6.1,
+            "compliance": 7.0
+        },
+        {
+            "id": 7,
+            "name": "Audiotechnica AT-OC9XEB,N",
+            "mass": 7.6,
+            "compliance": 9.0
+        },
+        {
+            "id": 8,
+            "name": "Audiotechnica AT-OC9XML, XSH",
+            "mass": 7.6,
+            "compliance": 20.0
+        },
+        {
+            "id": 9,
+            "name": "Audiotechnica AT-OC9XSL",
+            "mass": 7.6,
+            "compliance": 26.0
+        },
+        {
+            "id": 10,
+            "name": "Audiotechnica VM610MONO",
+            "mass": 6.4,
+            "compliance": 16.0
+        },
+        {
+            "id": 11,
+            "name": "Audiotechnica VM670SP",
+            "mass": 6.4,
+            "compliance": 4.0
+        },
+        {
+            "id": 12,
+            "name": "Audiotechnica VM740ML",
+            "mass": 8.0,
+            "compliance": 20.0
+        },
+        {
+            "id": 13,
+            "name": "Audiotechnica VM750SH",
+            "mass": 8.0,
+            "compliance": 20.0
+        },
+        {
+            "id": 14,
+            "name": "Audiotechnica VM760SLC",
+            "mass": 8.0,
+            "compliance": 20.0
+        },
+        {
+            "id": 15,
+            "name": "Benz Micro Ace S H",
+            "mass": 8.8,
+            "compliance": 14.0
+        },
+        {
+            "id": 16,
+            "name": "Benz Micro Ace S L",
+            "mass": 8.8,
+            "compliance": 15.0
+        },
+        {
+            "id": 17,
+            "name": "Benz Micro Ace S M",
+            "mass": 8.8,
+            "compliance": 14.0
+        },
+        {
+            "id": 18,
+            "name": "Benz Micro Ebony H",
+            "mass": 9.6,
+            "compliance": 15.0
+        },
+        {
+            "id": 19,
+            "name": "Benz Micro Ebony L",
+            "mass": 9.6,
+            "compliance": 15.0
+        },
+        {
+            "id": 20,
+            "name": "Benz Micro Glider S H",
+            "mass": 6.8,
+            "compliance": 14.0
+        },
+        {
+            "id": 21,
+            "name": "Benz Micro Glider S L",
+            "mass": 6.8,
+            "compliance": 15.0
+        },
+        {
+            "id": 22,
+            "name": "Benz Micro Glider S M",
+            "mass": 6.8,
+            "compliance": 14.0
+        },
+        {
+            "id": 23,
+            "name": "Benz Micro LP-S Class",
+            "mass": 16.4,
+            "compliance": 15.0
+        },
+        {
+            "id": 24,
+            "name": "Benz Micro Reference S",
+            "mass": 9.0,
+            "compliance": 15.0
+        },
+        {
+            "id": 25,
+            "name": "Benz Micro Ruby SLR Gullwing",
+            "mass": 12.2,
+            "compliance": 15.0
+        },
+        {
+            "id": 26,
+            "name": "Benz Micro Ruby Z",
+            "mass": 10.6,
+            "compliance": 15.0
+        },
+        {
+            "id": 27,
+            "name": "Benz Micro Ruby ZH",
+            "mass": 10.6,
+            "compliance": 14.0
+        },
+        {
+            "id": 28,
+            "name": "Benz Micro Zebra H",
+            "mass": 9.0,
+            "compliance": 15.0
+        },
+        {
+            "id": 29,
+            "name": "Benz Micro Zebra L",
+            "mass": 9.0,
+            "compliance": 15.0
+        },
+        {
+            "id": 30,
+            "name": "Benz Micro Zebra M",
+            "mass": 9.0,
+            "compliance": 15.0
+        },
+        {
+            "id": 31,
+            "name": "Clearaudioi Artist V2 Ebony",
+            "mass": 8.4,
+            "compliance": 15.0
+        },
+        {
+            "id": 32,
+            "name": "Clearaudioi Concept V2",
+            "mass": 8.4,
+            "compliance": 15.0
+        },
+        {
+            "id": 33,
+            "name": "Clearaudioi Essence",
+            "mass": 8.0,
+            "compliance": 9.0
+        },
+        {
+            "id": 34,
+            "name": "Clearaudioi Maestro V2 Ebony",
+            "mass": 8.4,
+            "compliance": 15.0
+        },
+        {
+            "id": 35,
+            "name": "Clearaudioi Performer V2 Ebony",
+            "mass": 8.4,
+            "compliance": 15.0
+        },
+        {
+            "id": 36,
+            "name": "Denon DL 103 R",
+            "mass": 8.5,
+            "compliance": 5.0
+        },
+        {
+            "id": 37,
+            "name": "DS. Audio DS. E1",
+            "mass": 8.1,
+            "compliance": 15.0
+        },
+        {
+            "id": 38,
+            "name": "DS. Audio DS. E3",
+            "mass": 7.7,
+            "compliance": 15.0
+        },
+        {
+            "id": 39,
+            "name": "Dynavector DV-10X5",
+            "mass": 6.6,
+            "compliance": 12.0
+        },
+        {
+            "id": 40,
+            "name": "Dynavector DV-20X2 L",
+            "mass": 9.2,
+            "compliance": 12.0
+        },
+        {
+            "id": 41,
+            "name": "Dynavector DV-Karat 17DX",
+            "mass": 11.0,
+            "compliance": 15.0
+        },
+        {
+            "id": 42,
+            "name": "Dynavector DV-XX2 MK2",
+            "mass": 8.9,
+            "compliance": 12.0
+        },
+        {
+            "id": 43,
+            "name": "Gold Note Da Vinci",
+            "mass": 10.0,
+            "compliance": 12.0
+        },
+        {
+            "id": 44,
+            "name": "Gold Note Donatello Gold",
+            "mass": 7.0,
+            "compliance": 12.0
+        },
+        {
+            "id": 45,
+            "name": "Gold Note Donatello Red",
+            "mass": 7.0,
+            "compliance": 12.0
+        },
+        {
+            "id": 46,
+            "name": "Gold Note ES-78",
+            "mass": 5.0,
+            "compliance": 10.0
+        },
+        {
+            "id": 47,
+            "name": "Gold Note Giotto",
+            "mass": 10.0,
+            "compliance": 12.0
+        },
+        {
+            "id": 48,
+            "name": "Gold Note Maciavelli Gold",
+            "mass": 10.0,
+            "compliance": 10.0
+        },
+        {
+            "id": 49,
+            "name": "Gold Note Maciavelli Gold MK II",
+            "mass": 10.0,
+            "compliance": 10.0
+        },
+        {
+            "id": 50,
+            "name": "Gold Note Maciavelli Red",
+            "mass": 10.0,
+            "compliance": 10.0
+        },
+        {
+            "id": 51,
+            "name": "Gold Note Maciavelli Red MK II",
+            "mass": 10.0,
+            "compliance": 10.0
+        },
+        {
+            "id": 52,
+            "name": "Gold Note Tuscany Gold",
+            "mass": 11.0,
+            "compliance": 10.0
+        },
+        {
+            "id": 53,
+            "name": "Gold Note Tuscany Red",
+            "mass": 11.0,
+            "compliance": 10.0
+        },
+        {
+            "id": 54,
+            "name": "Gold Note Vasari Gold",
+            "mass": 9.0,
+            "compliance": 10.0
+        },
+        {
+            "id": 55,
+            "name": "Gold Note Vasari Red",
+            "mass": 7.0,
+            "compliance": 10.0
+        },
+        {
+            "id": 56,
+            "name": "Gold Note Vasari Shibata",
+            "mass": 9.5,
+            "compliance": 10.0
+        },
+        {
+            "id": 57,
+            "name": "Goldring 2200",
+            "mass": 7.2,
+            "compliance": 10.0
+        },
+        {
+            "id": 58,
+            "name": "Goldring 2300",
+            "mass": 7.2,
+            "compliance": 10.0
+        },
+        {
+            "id": 59,
+            "name": "Goldring 2400",
+            "mass": 7.4,
+            "compliance": 10.0
+        },
+        {
+            "id": 60,
+            "name": "Goldring 2500",
+            "mass": 8.2,
+            "compliance": 10.0
+        },
+        {
+            "id": 61,
+            "name": "Goldring E1 RED",
+            "mass": 6.5,
+            "compliance": 20.0
+        },
+        {
+            "id": 62,
+            "name": "Goldring E2 GREEN",
+            "mass": 6.9,
+            "compliance": 20.0
+        },
+        {
+            "id": 63,
+            "name": "Goldring E3 VIOLET",
+            "mass": 6.9,
+            "compliance": 20.0
+        },
+        {
+            "id": 64,
+            "name": "Hana EL, EH",
+            "mass": 5.0,
+            "compliance": 20.0
+        },
+        {
+            "id": 65,
+            "name": "Hana ML, MH",
+            "mass": 9.5,
+            "compliance": 10.0
+        },
+        {
+            "id": 66,
+            "name": "Hana SL, SH",
+            "mass": 5.0,
+            "compliance": 20.0
+        },
+        {
+            "id": 67,
+            "name": "Kuzma CAR-20",
+            "mass": 17.0,
+            "compliance": 8.0
+        },
+        {
+            "id": 68,
+            "name": "Kuzma CAR-20H",
+            "mass": 17.0,
+            "compliance": 8.0
+        },
+        {
+            "id": 69,
+            "name": "Kuzma CAR-30",
+            "mass": 17.0,
+            "compliance": 8.0
+        },
+        {
+            "id": 70,
+            "name": "Kuzma CAR-50",
+            "mass": 17.0,
+            "compliance": 8.0
+        },
+        {
+            "id": 71,
+            "name": "Kuzma CAR-55",
+            "mass": 17.0,
+            "compliance": 8.0
+        },
+        {
+            "id": 72,
+            "name": "Kuzma CAR-60",
+            "mass": 17.0,
+            "compliance": 8.0
+        },
+        {
+            "id": 73,
+            "name": "Lyra Delos",
+            "mass": 7.3,
+            "compliance": 12.0
+        },
+        {
+            "id": 74,
+            "name": "Lyra Helikon SL",
+            "mass": 12.0,
+            "compliance": 8.0
+        },
+        {
+            "id": 75,
+            "name": "Lyra Kleos",
+            "mass": 8.8,
+            "compliance": 12.0
+        },
+        {
+            "id": 76,
+            "name": "Miyajima Laboratory Kansui",
+            "mass": 10.4,
+            "compliance": 9.0
+        },
+        {
+            "id": 77,
+            "name": "Miyajima Laboratory Saboten L",
+            "mass": 9.5,
+            "compliance": 8.0
+        },
+        {
+            "id": 78,
+            "name": "Nagaoka MP 110",
+            "mass": 6.5,
+            "compliance": 10.0
+        },
+        {
+            "id": 79,
+            "name": "Nagaoka MP 150",
+            "mass": 6.5,
+            "compliance": 10.0
+        },
+        {
+            "id": 80,
+            "name": "Ortofon 2M Black",
+            "mass": 7.2,
+            "compliance": 22.0
+        },
+        {
+            "id": 81,
+            "name": "Ortofon 2M Blue",
+            "mass": 7.2,
+            "compliance": 20.0
+        },
+        {
+            "id": 82,
+            "name": "Ortofon 2M Blue do Rega",
+            "mass": 6.0,
+            "compliance": 20.0
+        },
+        {
+            "id": 83,
+            "name": "Ortofon 2M Bronze",
+            "mass": 7.2,
+            "compliance": 22.0
+        },
+        {
+            "id": 84,
+            "name": "Ortofon 2M Bronze do Rega",
+            "mass": 6.0,
+            "compliance": 22.0
+        },
+        {
+            "id": 85,
+            "name": "Ortofon 2M Mono",
+            "mass": 7.2,
+            "compliance": 18.0
+        },
+        {
+            "id": 86,
+            "name": "Ortofon 2M Red",
+            "mass": 7.2,
+            "compliance": 20.0
+        },
+        {
+            "id": 87,
+            "name": "Ortofon 2M Red do Rega",
+            "mass": 6.0,
+            "compliance": 20.0
+        },
+        {
+            "id": 88,
+            "name": "Ortofon Cadenza Black",
+            "mass": 10.7,
+            "compliance": 16.0
+        },
+        {
+            "id": 89,
+            "name": "Ortofon Cadenza Bronze",
+            "mass": 10.7,
+            "compliance": 12.0
+        },
+        {
+            "id": 90,
+            "name": "Ortofon Cadenza Red",
+            "mass": 10.7,
+            "compliance": 12.0
+        },
+        {
+            "id": 91,
+            "name": "Ortofon OM 5 E",
+            "mass": 5.0,
+            "compliance": 20.0
+        },
+        {
+            "id": 92,
+            "name": "Ortofon Quintet Black S",
+            "mass": 9.0,
+            "compliance": 15.0
+        },
+        {
+            "id": 93,
+            "name": "Ortofon Quintet Blue",
+            "mass": 9.0,
+            "compliance": 15.0
+        },
+        {
+            "id": 94,
+            "name": "Ortofon Quintet Bronze",
+            "mass": 9.0,
+            "compliance": 15.0
+        },
+        {
+            "id": 95,
+            "name": "Ortofon Quintet Red",
+            "mass": 9.0,
+            "compliance": 15.0
+        },
+        {
+            "id": 96,
+            "name": "Ortofon Rondo Red",
+            "mass": 10.5,
+            "compliance": 15.0
+        },
+        {
+            "id": 97,
+            "name": "Ortofon SPU 1 E",
+            "mass": 30.0,
+            "compliance": 10.0
+        },
+        {
+            "id": 98,
+            "name": "Phasemation PP-2000",
+            "mass": 14.3,
+            "compliance": 8.0
+        },
+        {
+            "id": 99,
+            "name": "Shelter 201",
+            "mass": 6.2,
+            "compliance": 10.0
+        },
+        {
+            "id": 100,
+            "name": "Shelter 501 III",
+            "mass": 8.1,
+            "compliance": 10.0
+        },
+        {
+            "id": 101,
+            "name": "Sumiko Oyster",
+            "mass": 5.3,
+            "compliance": 10.0
+        },
+        {
+            "id": 102,
+            "name": "Sumiko Pearl",
+            "mass": 6.0,
+            "compliance": 10.0
+        },
+        {
+            "id": 103,
+            "name": "Sumiko Olympia",
+            "mass": 6.5,
+            "compliance": 12.0
+        }
+    ],
+    "scale": [
+        { "range": [5.0, 7.0], "description": "Very Poor", "color": "red" },
+        { "range": [7.1, 8.0], "description": "Poor", "color": "orange" },
+        { "range": [8.1, 11.0], "description": "Good", "color": "green" },
+        { "range": [11.1, 14.0], "description": "Excellent", "color": "blue" },
+        { "range": [14.1, 16.0], "description": "Fair", "color": "yellow" },
+        { "range": [16.1, 20.0], "description": "Poor", "color": "orange" }
+    ]
+}

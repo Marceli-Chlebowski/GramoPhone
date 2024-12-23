@@ -1,0 +1,56 @@
+body {
+    font-family: "Public Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 10;
+    font-style: normal;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: rgb(8,31,92);
+    color: white;
+}
+
+canvas {
+    display: none;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 20px 0;
+    max-width: 100%;
+}
+
+
+header {
+    color: #fff;
+    padding: 1em;
+}
+
+h1{
+    font-size: 50px;
+}
+
+
+form {
+    margin-top: 2em;
+}
+
+input{
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background: white;
+    color: rgb(8,31,92);
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+button:hover {
+    background: lightblue;
+}
+footer{
+    margin-bottom: 10px;
+    font-size: 10px;
+    color: white;
+}
