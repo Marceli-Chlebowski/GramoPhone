@@ -1,31 +1,25 @@
 const path = require('path');
 
 module.exports = {
-    mode: 'production',
-    entry: './public/script.js',  // Zakładam, że Twój główny plik JS znajduje się w public
+    mode: 'production', // Możesz zmienić na 'development' podczas testów
+    entry: './public/script.js',  // Twoje główne pliki źródłowe
     output: {
-        filename: 'bundle.js',  // Nazwa wynikowego pliku JavaScript
-        path: path.resolve(__dirname, 'public/dist'),  // Wymaga folderu `public/dist` do wynikowych plików
+        filename: 'bundle.js',
+        path: path.resolve(__dirname, 'public/dist'), // Pliki wynikowe
     },
     module: {
         rules: [
             {
-                test: /\.js$/,  // Będziemy obsługiwać tylko pliki .js
+                test: /\.js$/,
                 exclude: /node_modules/,
                 use: {
-                    loader: 'babel-loader',  // Jeżeli używasz ES6+ lub JSX, musisz skonfigurować Babel
+                    loader: 'babel-loader',
                 },
             },
             {
-                test: /\.css$/,  // Dodanie obsługi CSS
+                test: /\.css$/,
                 use: ['style-loader', 'css-loader'],
             },
         ],
     },
-    resolve: {
-        alias: {
-            '@data': path.resolve(__dirname, 'data/'),  // Alias do folderu `data`
-        },
-    },
-    devtool: 'source-map',  // Ułatwia debugowanie w produkcji
 };
